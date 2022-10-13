@@ -1,0 +1,5 @@
+venv
+.idea
+.pytest_cache
+*.sqlite3
+*/migrations/0*.py

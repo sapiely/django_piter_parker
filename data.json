@@ -1,0 +1,200 @@
+[
+{
+    "model": "sales.district",
+    "pk": 1,
+    "fields": {
+        "name": "Lenina"
+    }
+},
+{
+    "model": "sales.district",
+    "pk": 2,
+    "fields": {
+        "name": "Gagarina"
+    }
+},
+{
+    "model": "sales.category",
+    "pk": 1,
+    "fields": {
+        "name": "Technology"
+    }
+},
+{
+    "model": "sales.category",
+    "pk": 2,
+    "fields": {
+        "name": "Not technology"
+    }
+},
+{
+    "model": "sales.category",
+    "pk": 3,
+    "fields": {
+        "name": "Something else"
+    }
+},
+{
+    "model": "sales.category",
+    "pk": 4,
+    "fields": {
+        "name": "Sample category"
+    }
+},
+{
+    "model": "sales.company",
+    "pk": 1,
+    "fields": {
+        "name": "Tesla",
+        "description": "testing description",
+        "district": [
+            1
+        ]
+    }
+},
+{
+    "model": "sales.company",
+    "pk": 2,
+    "fields": {
+        "name": "Kojima Productions",
+        "description": "Company of genius",
+        "district": [
+            2
+        ]
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 1,
+    "fields": {
+        "name": "Iphone",
+        "category": 1
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 2,
+    "fields": {
+        "name": "Laptop",
+        "category": 1
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 3,
+    "fields": {
+        "name": "Notebook",
+        "category": 2
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 4,
+    "fields": {
+        "name": "Balabama",
+        "category": 1
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 5,
+    "fields": {
+        "name": "Balabama_2",
+        "category": 1
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 6,
+    "fields": {
+        "name": "Cofee",
+        "category": 1
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 7,
+    "fields": {
+        "name": "Steam",
+        "category": 3
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 8,
+    "fields": {
+        "name": "Origin",
+        "category": 1
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 9,
+    "fields": {
+        "name": "Origin",
+        "category": 1
+    }
+},
+{
+    "model": "sales.product",
+    "pk": 10,
+    "fields": {
+        "name": "Portal Gun",
+        "category": 1
+    }
+},
+{
+    "model": "sales.companyproduct",
+    "pk": 19,
+    "fields": {
+        "company": 1,
+        "product": 7,
+        "price": "12.00"
+    }
+},
+{
+    "model": "sales.companyproduct",
+    "pk": 20,
+    "fields": {
+        "company": 1,
+        "product": 7,
+        "price": "123.00"
+    }
+},
+{
+    "model": "sales.companyproduct",
+    "pk": 25,
+    "fields": {
+        "company": 1,
+        "product": 8,
+        "price": "8.00"
+    }
+},
+{
+    "model": "sales.companyproduct",
+    "pk": 26,
+    "fields": {
+        "company": 2,
+        "product": 1,
+        "price": "12.00"
+    }
+},
+{
+    "model": "sales.companyproduct",
+    "pk": 27,
+    "fields": {
+        "company": 1,
+        "product": 1,
+        "price": "123.00"
+    }
+},
+{
+    "model": "sales.companyproduct",
+    "pk": 28,
+    "fields": {
+        "company": 1,
+        "product": 9,
+        "price": "432.00"
+    }
+}
+]
